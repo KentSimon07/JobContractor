@@ -1,0 +1,183 @@
+﻿<Window x:Class="projectAT2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectAT2"
+        mc:Ignorable="d"
+        Title="Recruitment System" Height="520" Width="920" Background="#E6E6FA">
+    <!-- Main page layout -->
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <!-- Left form area -->
+            <ColumnDefinition Width="2.2*"/>
+            <!-- Right records area -->
+            <ColumnDefinition Width="1.3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left side content -->
+        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="0,0,20,0">
+
+                <!-- Main title -->
+                <TextBlock Text="Recruitment System"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Foreground="#3D2B56"
+                           Margin="0,0,0,18"/>
+
+                <!-- Add contractor section -->
+                <Border Background="#FFFFFF" CornerRadius="10" Padding="16" BorderBrush="#D8C7F2" BorderThickness="1" Margin="0,0,0,14">
+                    <StackPanel>
+                        <TextBlock Text="Add Contractor" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,12" Foreground="#4B3B63"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- First name -->
+                            <Label Grid.Row="0" Grid.Column="0" Content="First Name:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtFirstName" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+
+                            <!-- Last name -->
+                            <Label Grid.Row="1" Grid.Column="0" Content="Last Name:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtLastName" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+
+                            <!-- Start date -->
+                            <Label Grid.Row="2" Grid.Column="0" Content="Start Date:" VerticalAlignment="Center"/>
+                            <DatePicker Grid.Row="2" Grid.Column="1" x:Name="dpStartDate" Margin="0,4,0,4" Height="40" FontSize="16"/>
+
+                            <!-- Wage -->
+                            <Label Grid.Row="3" Grid.Column="0" Content="Hourly Wage:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtWage" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+                        </Grid>
+
+                        <!-- Contractor buttons -->
+                        <StackPanel Orientation="Horizontal" Margin="0,14,0,0">
+                            <Button Content="Add Contractor" Width="140" Height="36" Margin="0,0,8,0" Click="AddContractor_Click"/>
+                            <Button Content="Remove Contractor" Width="150" Height="36" Click="RemoveContractor_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Add job section -->
+                <Border Background="#FFFFFF" CornerRadius="10" Padding="16" BorderBrush="#D8C7F2" BorderThickness="1" Margin="0,0,0,14">
+                    <StackPanel>
+                        <TextBlock Text="Add Job" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,12" Foreground="#4B3B63"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Job title -->
+                            <Label Grid.Row="0" Grid.Column="0" Content="Job Title:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtJobTitle" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+
+                            <!-- Job date -->
+                            <Label Grid.Row="1" Grid.Column="0" Content="Job Date:" VerticalAlignment="Center"/>
+                            <DatePicker Grid.Row="1" Grid.Column="1" x:Name="dpJobDate" Margin="0,4,0,4" Height="40" FontSize="16"/>
+
+                            <!-- Job cost -->
+                            <Label Grid.Row="2" Grid.Column="0" Content="Cost:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtJobCost" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+                        </Grid>
+
+                        <!-- Add job button -->
+                        <Button Content="Add Job" Width="120" Height="36" Margin="0,14,0,0" HorizontalAlignment="Left" Click="AddJob_Click"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Assign and complete section -->
+                <Border Background="#FFFFFF" CornerRadius="10" Padding="16" BorderBrush="#D8C7F2" BorderThickness="1" Margin="0,0,0,14">
+                    <StackPanel>
+                        <TextBlock Text="Assign / Complete" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,12" Foreground="#4B3B63"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Contractor combo -->
+                            <Label Grid.Row="0" Grid.Column="0" Content="Contractor:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="0" Grid.Column="1" x:Name="cmbContractors" DisplayMemberPath="FullName" Margin="0,4,0,4" Height="40" FontSize="16"/>
+
+                            <!-- Job combo -->
+                            <Label Grid.Row="1" Grid.Column="0" Content="Job:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="1" Grid.Column="1" x:Name="cmbJobs" DisplayMemberPath="Title" Margin="0,4,0,4" Height="40" FontSize="16"/>
+                        </Grid>
+
+                        <!-- Action buttons -->
+                        <StackPanel Orientation="Horizontal" Margin="0,14,0,0">
+                            <Button Content="Assign Job" Width="110" Height="36" Margin="0,0,8,0" Click="AssignJob_Click"/>
+                            <Button Content="Complete Job" Width="120" Height="36" Click="CompleteJob_Click"/>
+                            <Button Content="Refresh Lists" Width="120" Height="36" Margin="8,0,0,0" Click="RefreshLists_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Search section -->
+                <Border Background="#FFFFFF" CornerRadius="10" Padding="16" BorderBrush="#D8C7F2" BorderThickness="1">
+                    <StackPanel>
+                        <TextBlock Text="Search Jobs by Cost" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,12" Foreground="#4B3B63"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Min cost -->
+                            <Label Grid.Row="0" Grid.Column="0" Content="Min Cost:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtMinCost" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+
+                            <!-- Max cost -->
+                            <Label Grid.Row="1" Grid.Column="0" Content="Max Cost:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtMaxCost" Margin="0,4,0,4" Padding="10" Height="40" FontSize="16"/>
+                        </Grid>
+
+                        <!-- Search button -->
+                        <Button Content="Search" Width="120" Height="36" Margin="0,14,0,0" HorizontalAlignment="Left" Click="SearchJobs_Click"/>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Right side records -->
+        <Border Grid.Column="1" Background="#FFFFFF" CornerRadius="10" Padding="16" BorderBrush="#D8C7F2" BorderThickness="1">
+            <StackPanel>
+                <TextBlock Text="Records" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,12" Foreground="#4B3B63"/>
+
+                <!-- Records list -->
+                <ListBox x:Name="Listbox_People" Height="390" FontSize="15"/>
+
+                <!-- Load button -->
+                <Button Content="Load Data" Height="36" Margin="0,12,0,0" Click="LoadData_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
