@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kents\\OneDrive\\Documents\\TAFE WA\\Semester 1\\Csh\\Term1\\projectAT2\\projectAT2\\projectAT2.csproj": {}
+    "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\projectAT2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kents\\OneDrive\\Documents\\TAFE WA\\Semester 1\\Csh\\Term1\\projectAT2\\projectAT2\\projectAT2.csproj": {
+    "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\projectAT2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kents\\OneDrive\\Documents\\TAFE WA\\Semester 1\\Csh\\Term1\\projectAT2\\projectAT2\\projectAT2.csproj",
+        "projectUniqueName": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\projectAT2.csproj",
         "projectName": "projectAT2",
-        "projectPath": "C:\\Users\\kents\\OneDrive\\Documents\\TAFE WA\\Semester 1\\Csh\\Term1\\projectAT2\\projectAT2\\projectAT2.csproj",
+        "projectPath": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\projectAT2.csproj",
         "packagesPath": "C:\\Users\\kents\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kents\\OneDrive\\Documents\\TAFE WA\\Semester 1\\Csh\\Term1\\projectAT2\\projectAT2\\obj\\",
+        "outputPath": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

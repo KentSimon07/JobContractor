@@ -14,22 +14,20 @@ using System.Windows.Shapes;
 
 namespace projectAT2
 {
-    // Handles window actions
+    /// <summary>
+    /// Main window logic.
+    /// </summary>
     public partial class MainWindow : Window
     {
-        // Business logic object
         private RecruitmentSystem system = new RecruitmentSystem();
 
-        // Window constructor
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        // Add a contractor
         private void AddContractor_Click(object sender, RoutedEventArgs e)
         {
-            // Validate input
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
                 string.IsNullOrWhiteSpace(txtLastName.Text) ||
                 dpStartDate.SelectedDate == null ||
@@ -39,7 +37,6 @@ namespace projectAT2
                 return;
             }
 
-            // Create contractor object
             Contractor c = new Contractor
             {
                 FirstName = txtFirstName.Text,
@@ -48,19 +45,15 @@ namespace projectAT2
                 HourlyWage = wage
             };
 
-            // Save contractor
             system.AddContractor(c);
-
-            // Refresh display
             LoadData_Click(sender, e);
-            ClearContractorFields();
             RefreshLists_Click(sender, e);
+            ClearContractorFields();
         }
 
-        // Remove selected contractor
         private void RemoveContractor_Click(object sender, RoutedEventArgs e)
         {
-            if (Listbox_People.SelectedItem is Contractor c)
+            if (Listbox_Contractors.SelectedItem is Contractor c)
             {
                 system.RemoveContractor(c);
                 LoadData_Click(sender, e);
@@ -68,10 +61,8 @@ namespace projectAT2
             }
         }
 
-        // Add a job
         private void AddJob_Click(object sender, RoutedEventArgs e)
         {
-            // Validate input
             if (string.IsNullOrWhiteSpace(txtJobTitle.Text) ||
                 dpJobDate.SelectedDate == null ||
                 !double.TryParse(txtJobCost.Text, out double cost))
@@ -80,7 +71,6 @@ namespace projectAT2
                 return;
             }
 
-            // Create job object
             Job j = new Job
             {
                 Title = txtJobTitle.Text,
@@ -88,16 +78,12 @@ namespace projectAT2
                 cost = cost
             };
 
-            // Save job
             system.AddJob(j);
-
-            // Refresh display
             LoadData_Click(sender, e);
-            ClearJobFields();
             RefreshLists_Click(sender, e);
+            ClearJobFields();
         }
 
-        // Load combo box data
         private void RefreshLists_Click(object sender, RoutedEventArgs e)
         {
             cmbContractors.ItemsSource = null;
@@ -106,7 +92,6 @@ namespace projectAT2
             cmbJobs.ItemsSource = system.GetUnassignedJobs();
         }
 
-        // Assign contractor to job
         private void AssignJob_Click(object sender, RoutedEventArgs e)
         {
             if (cmbContractors.SelectedItem is Contractor c && cmbJobs.SelectedItem is Job j)
@@ -121,22 +106,21 @@ namespace projectAT2
             }
         }
 
-        // Complete selected job
         private void CompleteJob_Click(object sender, RoutedEventArgs e)
         {
-            if (Listbox_People.SelectedItem is Job j)
+            if (Listbox_Jobs.SelectedItem is Job j)
             {
                 system.completeJob(j);
                 LoadData_Click(sender, e);
                 RefreshLists_Click(sender, e);
+                MessageBox.Show("Job completed.");
             }
             else
             {
-                MessageBox.Show("Please select a job from the Records list.");
+                MessageBox.Show("Please select a job from the Jobs list.");
             }
         }
 
-        // Search jobs by cost
         private void SearchJobs_Click(object sender, RoutedEventArgs e)
         {
             if (!double.TryParse(txtMinCost.Text, out double min) ||
@@ -146,19 +130,18 @@ namespace projectAT2
                 return;
             }
 
-            Listbox_People.ItemsSource = system.GetJobByCost(min, max);
+            Listbox_Jobs.ItemsSource = system.GetJobByCost(min, max);
         }
 
-        // Load all records
         private void LoadData_Click(object sender, RoutedEventArgs e)
         {
-            List<object> items = new List<object>();
-            items.AddRange(system.GetContractors());
-            items.AddRange(system.GetJobs());
-            Listbox_People.ItemsSource = items;
+            Listbox_Contractors.ItemsSource = null;
+            Listbox_Jobs.ItemsSource = null;
+
+            Listbox_Contractors.ItemsSource = system.GetContractors();
+            Listbox_Jobs.ItemsSource = system.GetJobs();
         }
 
-        // Clear contractor inputs
         private void ClearContractorFields()
         {
             txtFirstName.Clear();
@@ -167,7 +150,6 @@ namespace projectAT2
             dpStartDate.SelectedDate = null;
         }
 
-        // Clear job inputs
         private void ClearJobFields()
         {
             txtJobTitle.Clear();
