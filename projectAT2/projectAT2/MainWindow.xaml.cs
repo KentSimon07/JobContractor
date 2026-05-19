@@ -8,24 +8,23 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace projectAT2
 {
-    /// <summary>
-    /// Main window logic.
-    /// </summary>
+    /// <summary>Main window logic.</summary>
     public partial class MainWindow : Window
     {
         private RecruitmentSystem system = new RecruitmentSystem();
 
+        /// <summary>Initializes the window.</summary>
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        /// <summary>Adds a new contractor.</summary>
         private void AddContractor_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -51,6 +50,7 @@ namespace projectAT2
             ClearContractorFields();
         }
 
+        /// <summary>Removes the selected contractor.</summary>
         private void RemoveContractor_Click(object sender, RoutedEventArgs e)
         {
             if (Listbox_Contractors.SelectedItem is Contractor c)
@@ -61,6 +61,7 @@ namespace projectAT2
             }
         }
 
+        /// <summary>Adds a new job.</summary>
         private void AddJob_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtJobTitle.Text) ||
@@ -84,6 +85,7 @@ namespace projectAT2
             ClearJobFields();
         }
 
+        /// <summary>Refreshes dropdown lists.</summary>
         private void RefreshLists_Click(object sender, RoutedEventArgs e)
         {
             cmbContractors.ItemsSource = null;
@@ -92,6 +94,7 @@ namespace projectAT2
             cmbJobs.ItemsSource = system.GetUnassignedJobs();
         }
 
+        /// <summary>Assigns a job to a contractor.</summary>
         private void AssignJob_Click(object sender, RoutedEventArgs e)
         {
             if (cmbContractors.SelectedItem is Contractor c && cmbJobs.SelectedItem is Job j)
@@ -106,6 +109,7 @@ namespace projectAT2
             }
         }
 
+        /// <summary>Completes the selected job.</summary>
         private void CompleteJob_Click(object sender, RoutedEventArgs e)
         {
             if (Listbox_Jobs.SelectedItem is Job j)
@@ -121,6 +125,7 @@ namespace projectAT2
             }
         }
 
+        /// <summary>Searches jobs by cost.</summary>
         private void SearchJobs_Click(object sender, RoutedEventArgs e)
         {
             if (!double.TryParse(txtMinCost.Text, out double min) ||
@@ -133,6 +138,7 @@ namespace projectAT2
             Listbox_Jobs.ItemsSource = system.GetJobByCost(min, max);
         }
 
+        /// <summary>Loads contractors and jobs into the lists.</summary>
         private void LoadData_Click(object sender, RoutedEventArgs e)
         {
             Listbox_Contractors.ItemsSource = null;
@@ -142,6 +148,7 @@ namespace projectAT2
             Listbox_Jobs.ItemsSource = system.GetJobs();
         }
 
+        /// <summary>Clears contractor input fields.</summary>
         private void ClearContractorFields()
         {
             txtFirstName.Clear();
@@ -150,6 +157,7 @@ namespace projectAT2
             dpStartDate.SelectedDate = null;
         }
 
+        /// <summary>Clears job input fields.</summary>
         private void ClearJobFields()
         {
             txtJobTitle.Clear();

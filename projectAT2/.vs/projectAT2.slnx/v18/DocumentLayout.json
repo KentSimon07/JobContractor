@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\recruitmentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\recruitmentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\recruitmentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\recruitmentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -61,7 +61,8 @@
               "ToolTip": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\App.xaml",
               "RelativeToolTip": "projectAT2\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-18T01:16:49.364Z"
+              "WhenOpened": "2026-05-18T01:16:49.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,17 +74,18 @@
               "RelativeToolTip": "projectAT2\\Job.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T00:56:29.843Z"
+              "WhenOpened": "2026-05-18T00:56:29.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RecruitmentSystem.cs",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\RecruitmentSystem.cs",
               "RelativeDocumentMoniker": "projectAT2\\RecruitmentSystem.cs",
               "ToolTip": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\RecruitmentSystem.cs",
               "RelativeToolTip": "projectAT2\\RecruitmentSystem.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwDYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T00:56:06.798Z",
               "EditorCaption": ""
@@ -98,30 +100,33 @@
               "RelativeToolTip": "projectAT2\\Contractor.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T00:51:06.94Z"
+              "WhenOpened": "2026-05-18T00:51:06.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "projectAT2\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\MainWindow.xaml",
               "RelativeToolTip": "projectAT2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-18T00:47:20.484Z"
+              "WhenOpened": "2026-05-18T00:47:20.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "projectAT2\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\MainWindow.xaml.cs",
               "RelativeToolTip": "projectAT2\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T00:47:18.759Z"
+              "WhenOpened": "2026-05-18T00:47:18.759Z",
+              "EditorCaption": ""
             }
           ]
         }
