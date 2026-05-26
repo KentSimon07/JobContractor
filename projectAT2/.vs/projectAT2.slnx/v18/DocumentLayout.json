@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\recruitmentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\recruitmentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\contractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\contractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|solutionrelative:projectat2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D62A95-D961-C76E-F4DA-E5BBAFD72E5A}|projectAT2\\projectAT2.csproj|c:\\users\\kents\\onedrive\\documents\\projects\\jobcontractor\\projectat2\\projectat2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Job.cs",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\Job.cs",
               "RelativeDocumentMoniker": "projectAT2\\Job.cs",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "projectAT2\\Job.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T00:56:29.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T00:56:29.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RecruitmentSystem.cs",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\RecruitmentSystem.cs",
               "RelativeDocumentMoniker": "projectAT2\\RecruitmentSystem.cs",
@@ -92,20 +91,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Contractor.cs",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\Contractor.cs",
               "RelativeDocumentMoniker": "projectAT2\\Contractor.cs",
               "ToolTip": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\Contractor.cs",
               "RelativeToolTip": "projectAT2\\Contractor.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T00:51:06.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T00:51:06.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "projectAT2\\MainWindow.xaml",
@@ -123,7 +121,7 @@
               "RelativeDocumentMoniker": "projectAT2\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\kents\\OneDrive\\Documents\\projects\\JobContractor\\projectAT2\\projectAT2\\MainWindow.xaml.cs",
               "RelativeToolTip": "projectAT2\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T00:47:18.759Z",
               "EditorCaption": ""

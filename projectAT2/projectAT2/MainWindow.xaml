@@ -44,7 +44,7 @@
 
                             <!-- First name -->
                             <Label Grid.Row="0" Grid.Column="0" Content="First Name:" VerticalAlignment="Center"/>
-                            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtFirstName" Margin="0,4,0,4" Padding="8" Height="40"/>
+                            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtFirstName" Margin="0,5,0,0" Padding="8" Height="40" VerticalAlignment="Top"/>
 
                             <!-- Last name -->
                             <Label Grid.Row="1" Grid.Column="0" Content="Last Name:" VerticalAlignment="Center"/>
