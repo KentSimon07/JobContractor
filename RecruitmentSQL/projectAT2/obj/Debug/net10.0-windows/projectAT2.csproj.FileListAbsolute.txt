@@ -1,0 +1,76 @@
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.exe
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.deps.json
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.runtimeconfig.json
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.pdb
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2_MarkupCompile.cache
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2_MarkupCompile.lref
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.g.resources
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.AssemblyInfoInputs.cache
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.AssemblyInfo.cs
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.csproj.CoreCompileInputs.cache
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\refint\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.pdb
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.genruntimeconfig.cache
+C:\Users\kents\OneDrive\Documents\TAFE WA\Semester 1\Csh\Term1\projectAT2\projectAT2\obj\Debug\net10.0-windows\ref\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.exe
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.deps.json
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.runtimeconfig.json
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\bin\Debug\net10.0-windows\projectAT2.pdb
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2_MarkupCompile.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2_MarkupCompile.lref
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.g.resources
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.AssemblyInfoInputs.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.AssemblyInfo.cs
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.csproj.CoreCompileInputs.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.sourcelink.json
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\refint\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.pdb
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\projectAT2.genruntimeconfig.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\ref\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\projectAT2.exe
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\projectAT2.deps.json
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\projectAT2.runtimeconfig.json
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\projectAT2.pdb
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\Google.Protobuf.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\MySql.Data.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\ZstdSharp.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.csproj.AssemblyReference.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2_MarkupCompile.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2_MarkupCompile.lref
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.g.resources
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.AssemblyInfoInputs.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.AssemblyInfo.cs
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.csproj.CoreCompileInputs.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.sourcelink.json
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.csproj.Up2Date
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\refint\projectAT2.dll
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.pdb
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\projectAT2.genruntimeconfig.cache
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\RecruitmentSQL\projectAT2\obj\Debug\net10.0-windows\ref\projectAT2.dll

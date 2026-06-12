@@ -1,20 +1,20 @@
 ﻿projectAT2
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\kents\OneDrive\Documents\projectAT2\projectAT2\obj\Debug\net10.0-windows\
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\obj\Debug\net10.0-windows\
 projectAT2
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\kents\OneDrive\Documents\projectAT2\projectAT2\App.xaml
+C:\Users\kents\OneDrive\Documents\projects\JobContractor\projectAT2\projectAT2\App.xaml
 11407045341
 
-91539563837
+7-2009408169
 206-1840375534
 MainWindow.xaml;
 
-True
+False
 
